@@ -1,0 +1,57 @@
+# Python技能評估測驗
+
+# 1. 基礎語法
+# 填空:完成以下代碼,使其打印出 "Hello, World!"
+print(____)
+
+# 2. 數據類型和變量
+# 創建一個包含5個不同水果名稱的列表,並打印出第三個水果
+fruits = ____
+print(____)
+
+# 3. 控制流
+# 編寫一個函數,接受一個數字作為參數,如果是偶數返回"Even",如果是奇數返回"Odd"
+def even_or_odd(num):
+    ____
+
+# 4. 函數
+# 編寫一個函數,計算並返回一個列表中所有數字的平均值
+def average(numbers):
+    ____
+
+# 5. 列表推導式
+# 使用列表推導式創建一個包含1到10的平方數的列表
+squares = ____
+
+# 6. 錯誤處理
+# 編寫一個函數,嘗試將輸入轉換為整數,如果失敗則返回None
+def safe_int_convert(value):
+    ____
+
+# 7. 文件操作
+# 編寫代碼來讀取名為"sample.txt"的文件內容,並打印出來
+____
+
+# 8. 面向對象編程
+# 創建一個簡單的"Car"類,包含"brand"和"model"屬性,以及一個打印這些信息的方法
+class Car:
+    ____
+
+# 9. 模塊和包
+# 導入datetime模塊並打印當前日期
+____
+
+# 10. 高級特性
+# 使用裝飾器創建一個簡單的計時器,用於計算函數執行時間
+import time
+
+def timer(func):
+    ____
+
+@timer
+def some_function():
+    time.sleep(2)
+    print("Function completed")
+
+some_function()
+
